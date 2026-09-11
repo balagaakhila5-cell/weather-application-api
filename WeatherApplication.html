@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApplication</title>
+   <link rel="stylesheet" href="WeatherApplication.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <script src="WeatherApplication.js" defer></script>
+</head>
+<body>
+    <div id="mountain_container">
+        <div id="blurredbackground"></div>
+        <div id="weatherforecast_container">
+            <div id="search_container">
+               <input type="text" name="search_input_box" id="city_name_input_box" placeholder="SearchCity">
+                <span id="search_icon"><i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+            </div>
+            <div id="city_location_container">
+                 <span id="location_icon"><i class="fa-solid fa-location-dot"></i></span>
+                <h1 id="cityName"></h1> 
+            </div>
+            <div id="weather_description">
+                <img src="" alt="" id="weather_image">
+                <div id="weather_name_container">
+                    <h1 id="weather_name"></h1>
+                </div>
+                <span id="degree_celsius"><sup >o</sup>C</span>
+            </div>
+            <div id="weather_containers">
+                <div id="humidity_container">
+                    <span id="humidity_icon"><i class="fa-solid fa-droplet"></i></span>
+                    <h1 id="humidity_heading">Humidity</h1>
+                    <h1 id="humidity_value"></h1>
+                </div>
+                <div id="Windspeed_container">
+                    <span id="windspeed_icon"><i class="fa-solid fa-wind"></i></span>
+                    <h1 id="windspeed_heading">Windspeed</h1>
+                    <h1 id="windspeed_value"></h1>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+  
+  
+</body>
+</html>
